@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #app {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #answer {
+    font-size: 1.5em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 50%;
+  }
+  
+  #submit {
+    font-size: 1.5em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  #result {
+    font-size: 1.5em;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  #result.correct {
+    background-color: green;
+    color: white;
+  }
+  
+  #result.incorrect {
+    background-color: red;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    #app {
+      max-width: 200%;
+    }
+  
+    h1, p, #answer, #submit, #result {
+      font-size: 2em;
+    }
+  }
+  
