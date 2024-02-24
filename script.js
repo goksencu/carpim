@@ -73,7 +73,7 @@ generateQuestion();
 function generateMultiplicationTable(_bir, _iki) {
   let result = "";
   for (let i = 1; i <= _bir; i++) {
-    result += i +".";
+    result += i +". " + num2 + " ";
     for (let j = 1; j <= _iki; j++) {
       result += "I";
     }
