@@ -5,6 +5,15 @@ body {
     text-align: center;
     background-color: bisque;
   }
+
+  #tablo {
+    font-size: 2em;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: tomato;
+    
+  }
   
   #app {
     max-width: 800px;
@@ -58,8 +67,8 @@ body {
       max-width: 200%;
     }
   
-    h1, p, #answer, #submit, #result {
-      font-size: 2em;
+    h1, p, #answer, #submit, #result, #tablo {
+      font-size: 2.5em;
     }
   }
   
